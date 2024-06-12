@@ -10,6 +10,7 @@ export async function handleForm(prevState: any, formData: FormData) {
   // validation 유효성 체크
   return {
     error: ["name", "salary"],
+    subError: ["전송오류"],
   };
 
   // api call
